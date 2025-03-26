@@ -1,5 +1,4 @@
 'use client'
-import Footer from '@/components/footer'
 import './globals.css'
 
 export default function RootLayout({

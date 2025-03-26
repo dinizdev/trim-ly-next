@@ -1,10 +1,8 @@
 'use client'
-import BannerAnounc from '@/components/banner-anounc'
 import Footer from '@/components/footer'
 import FormUrl from '@/components/form-url'
 import MenuBar from '@/components/menu-bar'
 import Section from '@/components/section'
-import Link from 'next/link'
 
 export default function Home() {
   return (

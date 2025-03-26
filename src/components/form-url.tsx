@@ -2,7 +2,7 @@ import { Input } from '@/components/ui/input'
 import { Button } from './ui/button'
 import { Link } from 'lucide-react'
 
-const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+const handleClick = () => {
   window.alert('URL encurtada com sucesso!')
 }
 
