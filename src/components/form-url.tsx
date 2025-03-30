@@ -1,9 +1,11 @@
+'use client'
 import { Input } from '@/components/ui/input'
 import { Button } from './ui/button'
 import { Link } from 'lucide-react'
+import router from 'next/router'
 
 const handleClick = () => {
-  window.alert('URL encurtada com sucesso!')
+  router.push('/cadastro')
 }
 
 export default function FormUrl() {
