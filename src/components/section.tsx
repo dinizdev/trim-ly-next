@@ -2,7 +2,7 @@ import { Link, Settings, BarChart, Edit } from 'lucide-react'
 
 export default function Section() {
   return (
-    <div className="grid grid-cols-2 gap-6 p-10 text-gray-300 font-bold">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-10 text-gray-300 font-bold">
       <div className="p-4 bg-zinc-800 rounded-lg">
         <Link size={32} color="white" className="mb-4" />
         <h2>Encurtar Links</h2>
