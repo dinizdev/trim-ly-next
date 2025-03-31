@@ -10,9 +10,9 @@ export default function Home() {
       <MenuBar />
       <div className="flex flex-col justify-center items-center max-w-4xl p-6 mx-auto text-center text-white">
         <h2 className="text-gray-100 text-2xl font-bold my-24">
-          "🔗✨ Transforme seus links longos em curtos e fáceis de compartilhar
-          em segundos! 🚀 Comece agora e torne seus links mais rápidos e
-          organizados! 🔥"
+          {
+            '🔗✨ Transforme seus links longos em curtos e fáceis de compartilhar em segundos! 🚀 Comece agora e torne seus links mais rápidos e organizados! 🔥'
+          }
         </h2>
         <div>
           <FormUrl />
